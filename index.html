@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multipurpose Calculator</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Multipurpose Calculator</h1>
+        <p class="subtitle">One Calculator, Multiple Solutions</p>
+
+        <div class="calculator">
+
+            <div class="operation-section">
+                <label for="operation">Select Operation</label>
+
+                <select id="operation">
+                    <option value="arithmetic">Basic Arithmetic</option>
+                    <option value="currency">Currency Conversion</option>
+                    <option value="weight">Weight Conversion</option>
+                    <option value="temperature">Temperature Conversion</option>
+                </select>
+            </div>
+
+            <div id="input-section">
+                <!-- Inputs will appear here -->
+            </div>
+
+            <button id="calculate-btn">Calculate</button>
+
+            <div id="result">
+                Result will appear here
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./cal.js"></script>
+
+</body>
+
+</html>
